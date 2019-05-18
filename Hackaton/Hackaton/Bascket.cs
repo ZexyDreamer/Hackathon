@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Hackaton
 {
-    class Bascket
+    public class Bascket
     {
         public List<Product> Products;
 

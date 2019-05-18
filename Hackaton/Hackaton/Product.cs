@@ -7,7 +7,7 @@ using System.Drawing;
 
 namespace Hackaton
 {
-    class Product
+    public class Product
     {
         public Bitmap Image;
         public double Price;
