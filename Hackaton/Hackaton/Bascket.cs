@@ -9,24 +9,23 @@ namespace Hackaton
 {
     public static class Bascket
     {
-        public List<IItem> Products;
+        public static List<IProduct> Products;
 
         static Bascket()
         {
-            Products = new List<Product>();
+            Products = new List<IProduct>();
             for (int i = 0; i < 10; i++)
             {
-                var p = new Product(
+                var p = new Grass(
                     new Bitmap(@"C:\Users\dmitr\Desktop\Dima HW\ЯТП_С#\Hackathon\Hackaton\Hackaton\Images\Gazon.jpeg"),
-                    100,
-                    10,
+                    100,     
                     "Газон",
-                    null,
-                    "газон обыкновенный");
+                    10);
+                p.Description = "Газон обыкновенный";
                 Products.Add(p);
             }
         }
 
-        public static double Price => Products.Select(p => p.Price).Sum();
+        public static double Price => Products.Select(p => p.Sum).Sum();
     }
 }

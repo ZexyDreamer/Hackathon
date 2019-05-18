@@ -19,10 +19,10 @@ namespace Hackaton
             CreatePoducts();
         }
 
-        private Dictionary<GroupBox, Product> boxProduct =
-            new Dictionary<GroupBox, Product>();
+        private Dictionary<GroupBox, IProduct> boxProduct =
+            new Dictionary<GroupBox, IProduct>();
 
-        public GroupBox CreateProductGroupBox(Product product, Point location)
+        public GroupBox CreateProductGroupBox(IProduct product, Point location)
         {
             var groupBox = new GroupBox();
             boxProduct[groupBox] = product;
@@ -70,7 +70,7 @@ namespace Hackaton
             buttonPlus.Click += (sender, e) =>
             {
                 product.Count++;
-                priceTextBox.Text = $"Price: {product.Price}";
+                priceTextBox.Text = $"Price: {product.Sum}";
                 RefreshTotalPrice();
             };
             groupBox.Controls.Add(buttonPlus);
@@ -87,7 +87,7 @@ namespace Hackaton
             {
                 if (product.Count > 0)
                     product.Count--;
-                priceTextBox.Text = $"Price: {product.Price}";
+                priceTextBox.Text = $"Price: {product.Sum}";
                 RefreshTotalPrice();
             };
             groupBox.Controls.Add(buttonMinus);
