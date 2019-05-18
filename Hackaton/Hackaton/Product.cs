@@ -10,21 +10,26 @@ namespace Hackaton
     public class Product
     {
         public Bitmap Image;
-        public double Price;
+        public double OnePrice;
         public double? Count = null;
         public string Name;
-        public double? Size = null;
+        public Size? Size = null;
         public string Description;
 
-        public Product(Bitmap Image, double Price, double Count, string Name, 
-            double Size, string Description)
+        public Product(Bitmap Image, double OnePrice, double? Count, string Name,
+            Size? Size, string Description)
         {
             this.Image = Image;
-            this.Price = Price;
+            this.OnePrice = OnePrice;
             this.Count = Count;
             this.Name = Name;
             this.Size = Size;
             this.Description = Description;
         }
+
+        public double Price =>
+            Count is null
+            ? OnePrice * Size.Value.Height * Size.Value.Width
+            : OnePrice * Count.Value;
     }
 }
