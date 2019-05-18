@@ -3,14 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="b25d74cb-76f9-48c5-a629-2578bfd63aa6" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Hackaton/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Hackaton/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hackaton/Hackaton.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Hackaton/Hackaton.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hackaton/Product.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Hackaton/Product.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hackaton/bin/Debug/Hackaton.exe" beforeDir="false" afterPath="$PROJECT_DIR$/Hackaton/bin/Debug/Hackaton.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hackaton/bin/Debug/Hackaton.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Hackaton/bin/Debug/Hackaton.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hackaton/obj/Debug/Hackaton.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Hackaton/obj/Debug/Hackaton.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hackaton/obj/Debug/Hackaton.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Hackaton/obj/Debug/Hackaton.csproj.FileListAbsolute.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Hackaton/obj/Debug/Hackaton.csproj.GenerateResource.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Hackaton/obj/Debug/Hackaton.csproj.GenerateResource.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hackaton/obj/Debug/Hackaton.exe" beforeDir="false" afterPath="$PROJECT_DIR$/Hackaton/obj/Debug/Hackaton.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hackaton/obj/Debug/Hackaton.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Hackaton/obj/Debug/Hackaton.pdb" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -19,16 +13,17 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Hackaton/Properties/Settings.Designer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Hackaton/MainMenu.resx" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Hackaton/Category.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Hackaton/Product.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Hackaton/Form1.Designer.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Hackaton/Form1.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Hackaton/Bascket Window.resx" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Hackaton/Program.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
@@ -53,6 +48,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="AssemblyExplorer" />
       <pane id="SolutionExplorer">
         <subPane>
           <expand>
@@ -65,18 +61,11 @@
               <item name="Hackaton" type="24d0babc:SolutionExplorerModelNode" />
               <item name="Hackaton" type="24d0babc:SolutionExplorerModelNode" />
             </path>
-            <path>
-              <item name="" type="784c90a0:SolutionExplorerRootNode" />
-              <item name="Hackaton" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="Hackaton" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="Form1.cs" type="24d0babc:SolutionExplorerModelNode" />
-            </path>
           </expand>
           <select />
         </subPane>
         <option name="show-all-files" value="false" />
       </pane>
-      <pane id="AssemblyExplorer" />
       <pane id="FileSystemExplorer" />
     </panes>
   </component>
@@ -135,11 +124,12 @@
       <updated>1558166240251</updated>
       <workItem from="1558166245969" duration="1977000" />
       <workItem from="1558169837565" duration="116000" />
+      <workItem from="1558179216458" duration="105000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2093000" />
+    <option name="totallyTimeSpent" value="2198000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -153,7 +143,7 @@
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1366" height="768" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16163142" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16389728" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -271,6 +261,37 @@
             <marker date="1558169225441" expanded="true" signature="186:270" ph="/// Главная точка входа для приложения. ... " />
             <marker date="1558169225441" expanded="true" signature="317:491" ph="{...}" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Hackaton/Properties/Settings.Designer.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="34" selection-start-line="16" selection-start-column="34" selection-end-line="16" selection-end-column="34" />
+          <folding>
+            <marker date="1558169225441" expanded="true" signature="0:395" ph="/* ------------------------------------------------------------------------------ ... */" />
+            <marker date="1558169225441" expanded="true" signature="426:1061" ph="{...}" />
+            <marker date="1558169225441" expanded="true" signature="755:1059" ph="{...}" />
+            <marker date="1558169225441" expanded="true" signature="949:1053" ph="{...}" />
+            <marker date="1558169225441" expanded="true" signature="975:1043" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Hackaton/Properties/Settings.settings">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Hackaton/Bascket Window.resx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="12249" column="9" lean-forward="true" selection-start-line="12249" selection-start-column="9" selection-end-line="12249" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Hackaton/MainMenu.resx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="12252" column="4" selection-start-line="12252" selection-start-column="4" selection-end-line="12252" selection-end-column="4" />
         </state>
       </provider>
     </entry>

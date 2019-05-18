@@ -6,11 +6,23 @@
     <e p="$PROJECT_DIR$" t="IncludeFlat">
       <e p="Hackaton" t="IncludeRecursive">
         <e p="App.config" t="Include" />
+        <e p="Bascket Window.Designer.cs" t="Include" />
+        <e p="Bascket Window.cs" t="Include" />
+        <e p="Bascket Window.resx" t="Include" />
         <e p="Bascket.cs" t="Include" />
         <e p="Category.cs" t="Include" />
-        <e p="Form1.Designer.cs" t="Include" />
-        <e p="Form1.cs" t="Include" />
         <e p="Hackaton.csproj" t="IncludeRecursive" />
+        <e p="Images" t="Include">
+          <e p="Bench.jpg" t="Include" />
+          <e p="Cement.jpg" t="Include" />
+          <e p="Concrete.jpeg" t="Include" />
+          <e p="Detskaya_ploshadka.jpg" t="Include" />
+          <e p="Gazon.jpeg" t="Include" />
+          <e p="Grill.jpeg" t="Include" />
+        </e>
+        <e p="MainMenu.Designer.cs" t="Include" />
+        <e p="MainMenu.cs" t="Include" />
+        <e p="MainMenu.resx" t="Include" />
         <e p="Product.cs" t="Include" />
         <e p="Program.cs" t="Include" />
         <e p="Properties" t="Include">
@@ -20,6 +32,7 @@
           <e p="Settings.Designer.cs" t="Include" />
           <e p="Settings.settings" t="Include" />
         </e>
+        <e p="TreeIcon.ico" t="Include" />
         <e p="bin" t="ExcludeRecursive" />
         <e p="obj" t="ExcludeRecursive" />
       </e>
