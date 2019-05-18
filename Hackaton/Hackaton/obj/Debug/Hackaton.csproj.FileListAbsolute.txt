@@ -1,0 +1,9 @@
+/home/user/Desktop/Repos/Hackathon/Hackathon/Hackaton/Hackaton/bin/Debug/Hackaton.exe.config
+/home/user/Desktop/Repos/Hackathon/Hackathon/Hackaton/Hackaton/bin/Debug/Hackaton.exe
+/home/user/Desktop/Repos/Hackathon/Hackathon/Hackaton/Hackaton/bin/Debug/Hackaton.pdb
+/home/user/Desktop/Repos/Hackathon/Hackathon/Hackaton/Hackaton/obj/Debug/Hackaton.csprojAssemblyReference.cache
+/home/user/Desktop/Repos/Hackathon/Hackathon/Hackaton/Hackaton/obj/Debug/Hackaton.Properties.Resources.resources
+/home/user/Desktop/Repos/Hackathon/Hackathon/Hackaton/Hackaton/obj/Debug/Hackaton.csproj.GenerateResource.cache
+/home/user/Desktop/Repos/Hackathon/Hackathon/Hackaton/Hackaton/obj/Debug/Hackaton.csproj.CoreCompileInputs.cache
+/home/user/Desktop/Repos/Hackathon/Hackathon/Hackaton/Hackaton/obj/Debug/Hackaton.exe
+/home/user/Desktop/Repos/Hackathon/Hackathon/Hackaton/Hackaton/obj/Debug/Hackaton.pdb
