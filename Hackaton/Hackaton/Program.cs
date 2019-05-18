@@ -11,6 +11,7 @@ namespace Hackaton
         /// <summary>
         /// Главная точка входа для приложения.
         /// </summary>
+        //каво
         [STAThread]
         static void Main()
         {
