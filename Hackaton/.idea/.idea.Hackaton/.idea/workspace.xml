@@ -2,19 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b25d74cb-76f9-48c5-a629-2578bfd63aa6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Hackaton/IService.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Hackaton/Library/Door.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Hackaton/Library/Paint.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Hackaton/Library/Playground.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Hackaton/Library/Putty.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Hackaton/Library/Service.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Hackaton/Library/Toolset.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hackaton/Library/Product.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Hackaton/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Hackaton/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Hackaton/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Hackaton/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Hackaton/Hackaton.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Hackaton/Hackaton.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hackaton/IItem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Hackaton/IItem.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hackaton/obj/Debug/Hackaton.Properties.Resources.resources" beforeDir="false" afterPath="$PROJECT_DIR$/Hackaton/obj/Debug/Hackaton.Properties.Resources.resources" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hackaton/obj/Debug/Hackaton.csproj.GenerateResource.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Hackaton/obj/Debug/Hackaton.csproj.GenerateResource.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hackaton/Product.cs" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -25,13 +17,27 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Hackaton/Library/Service.cs">
+        <entry file="file://$PROJECT_DIR$/Hackaton/Library/Product.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="26" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
+            <state relative-caret-position="180">
+              <caret line="12" column="43" selection-start-line="12" selection-start-column="43" selection-end-line="12" selection-end-column="43" />
               <folding>
-                <marker date="1558208188465" expanded="true" signature="18:200" ph="{...}" />
-                <marker date="1558208188465" expanded="true" signature="56:198" ph="{...}" />
+                <marker date="1558208850218" expanded="true" signature="41:602" ph="{...}" />
+                <marker date="1558208850218" expanded="true" signature="76:600" ph="{...}" />
+                <marker date="1558208850218" expanded="true" signature="443:594" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Hackaton/IItem.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="11" column="27" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
+              <folding>
+                <marker date="1558206705072" expanded="true" signature="41:283" ph="{...}" />
+                <marker date="1558206705072" expanded="true" signature="70:281" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -54,7 +60,6 @@
     <setting file="file://$PROJECT_DIR$/Hackaton/Category.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Hackaton/Library/Concrete.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Hackaton/Library/Grass.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Hackaton/Product.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Hackaton/Library/Grill.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Hackaton/Library/Playground.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Hackaton/Library/Toolset.cs" root0="FORCE_HIGHLIGHTING" />
@@ -64,13 +69,13 @@
     <setting file="file://$PROJECT_DIR$/Hackaton/Program.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Hackaton/IService.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Hackaton/Library/Service.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Hackaton/Library/Product.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Hackaton/Category.cs" />
         <option value="$PROJECT_DIR$/Hackaton/Hackaton.csproj" />
-        <option value="$PROJECT_DIR$/Hackaton/Product.cs" />
         <option value="$PROJECT_DIR$/Hackaton/Library/Bench.cs" />
         <option value="$PROJECT_DIR$/Hackaton/Library/Cement.cs" />
         <option value="$PROJECT_DIR$/Hackaton/Library/Concrete.cs" />
@@ -84,6 +89,9 @@
         <option value="$PROJECT_DIR$/Hackaton/Library/Putty.cs" />
         <option value="$PROJECT_DIR$/Hackaton/IService.cs" />
         <option value="$PROJECT_DIR$/Hackaton/Library/Service.cs" />
+        <option value="$PROJECT_DIR$/Hackaton/Зкщвгсе.cs" />
+        <option value="$PROJECT_DIR$/Hackaton/Product.cs" />
+        <option value="$PROJECT_DIR$/Hackaton/Library/Product.cs" />
       </list>
     </option>
   </component>
@@ -186,12 +194,12 @@
       <workItem from="1558179216458" duration="105000" />
       <workItem from="1558180429947" duration="92000" />
       <workItem from="1558186855247" duration="37000" />
-      <workItem from="1558205725210" duration="2463000" />
+      <workItem from="1558205725210" duration="3127000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4790000" />
+    <option name="totallyTimeSpent" value="5454000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -253,19 +261,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="48" column="37" selection-start-line="48" selection-start-column="37" selection-end-line="48" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Hackaton/Category.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="27" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="27" />
-          <folding>
-            <marker date="1558169233969" expanded="true" signature="6:78" ph="..." />
-            <marker date="1558169233969" expanded="true" signature="98:403" ph="{...}" />
-            <marker date="1558169233969" expanded="true" signature="126:401" ph="{...}" />
-            <marker date="1558169233969" expanded="true" signature="284:395" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -373,12 +368,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="9" column="11" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
-          <folding>
-            <marker date="1558182395353" expanded="false" signature="6:137" ph="..." />
-            <marker date="1558182395353" expanded="true" signature="157:737" ph="{...}" />
-            <marker date="1558182395353" expanded="true" signature="184:735" ph="{...}" />
-            <marker date="1558182395353" expanded="true" signature="509:729" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -414,17 +403,6 @@
             <marker date="1558206911198" expanded="true" signature="41:604" ph="{...}" />
             <marker date="1558206911198" expanded="true" signature="74:602" ph="{...}" />
             <marker date="1558206911198" expanded="true" signature="445:596" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Hackaton/IItem.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="27" lean-forward="true" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
-          <folding>
-            <marker date="1558206705072" expanded="true" signature="41:283" ph="{...}" />
-            <marker date="1558206705072" expanded="true" signature="70:281" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -477,17 +455,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Hackaton/IService.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="32" selection-start-line="6" selection-start-column="32" selection-end-line="6" selection-end-column="32" />
-          <folding>
-            <marker date="1558208182669" expanded="true" signature="18:173" ph="{...}" />
-            <marker date="1558208182669" expanded="true" signature="50:171" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Hackaton/Library/Playground.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -500,13 +467,68 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Hackaton/IService.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="32" selection-start-line="6" selection-start-column="32" selection-end-line="6" selection-end-column="32" />
+          <folding>
+            <marker date="1558208211682" expanded="true" signature="18:174" ph="{...}" />
+            <marker date="1558208211682" expanded="true" signature="50:172" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Hackaton/Library/Service.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="26" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
+        <state relative-caret-position="105">
+          <caret line="7" column="8" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
           <folding>
-            <marker date="1558208188465" expanded="true" signature="18:200" ph="{...}" />
-            <marker date="1558208188465" expanded="true" signature="56:198" ph="{...}" />
+            <marker date="1558208365563" expanded="true" signature="18:391" ph="{...}" />
+            <marker date="1558208365563" expanded="true" signature="56:389" ph="{...}" />
+            <marker date="1558208365563" expanded="true" signature="272:383" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Hackaton/Category.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="9" column="27" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="27" />
+          <folding>
+            <marker date="1558182395349" expanded="false" signature="6:78" ph="..." />
+            <marker date="1558182395349" expanded="true" signature="98:412" ph="{...}" />
+            <marker date="1558182395349" expanded="true" signature="126:410" ph="{...}" />
+            <marker date="1558182395349" expanded="true" signature="284:404" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Hackaton/Product.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="5" lean-forward="true" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Hackaton/IItem.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="27" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
+          <folding>
+            <marker date="1558206705072" expanded="true" signature="41:283" ph="{...}" />
+            <marker date="1558206705072" expanded="true" signature="70:281" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Hackaton/Library/Product.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="43" selection-start-line="12" selection-start-column="43" selection-end-line="12" selection-end-column="43" />
+          <folding>
+            <marker date="1558208850218" expanded="true" signature="41:602" ph="{...}" />
+            <marker date="1558208850218" expanded="true" signature="76:600" ph="{...}" />
+            <marker date="1558208850218" expanded="true" signature="443:594" ph="{...}" />
           </folding>
         </state>
       </provider>

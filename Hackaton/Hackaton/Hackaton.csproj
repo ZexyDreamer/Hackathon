@@ -64,6 +64,7 @@
     <Compile Include="Library\Grill.cs" />
     <Compile Include="Library\Paint.cs" />
     <Compile Include="Library\Playground.cs" />
+    <Compile Include="Library\Product.cs" />
     <Compile Include="Library\Putty.cs" />
     <Compile Include="Library\Service.cs" />
     <Compile Include="Library\Toolset.cs" />
@@ -73,7 +74,6 @@
     <Compile Include="MainMenu.Designer.cs">
       <DependentUpon>MainMenu.cs</DependentUpon>
     </Compile>
-    <Compile Include="Product.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Bascket Window.resx">
