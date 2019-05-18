@@ -17,3 +17,4 @@ C:\Users\dmitr\Desktop\Dima HW\ЯТП_С#\Hackathon\Hackaton\Hackaton\obj\Debug\
 C:\Users\dmitr\Desktop\Dima HW\ЯТП_С#\Hackathon\Hackaton\Hackaton\obj\Debug\Hackaton.csproj.CoreCompileInputs.cache
 C:\Users\dmitr\Desktop\Dima HW\ЯТП_С#\Hackathon\Hackaton\Hackaton\obj\Debug\Hackaton.exe
 C:\Users\dmitr\Desktop\Dima HW\ЯТП_С#\Hackathon\Hackaton\Hackaton\obj\Debug\Hackaton.pdb
+C:\Users\dmitr\Desktop\Dima HW\ЯТП_С#\Hackathon\Hackaton\Hackaton\obj\Debug\Hackaton.Description.resources

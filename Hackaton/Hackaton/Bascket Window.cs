@@ -14,24 +14,9 @@ namespace Hackaton
     {
         public BascketWin()
         {
+            DoubleBuffered = true;
             InitializeComponent();
-            var p = new Product(new Bitmap(@"C:\Users\dmitr\Desktop\Dima HW\ЯТП_С#\Hackathon\Hackaton\Hackaton\Images\Gazon.jpeg"),
-                100,
-                10,
-                "Газон",
-                null,
-                "газон обыкновенный");
-            Controls.Add(CreateProductGroupBox(p, new Point(20, 20)));
-        }
-
-        private void listBox1_SelectedIndexChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void groupBox1_Enter(object sender, EventArgs e)
-        {
-
+            CreatePoducts();
         }
 
         private Dictionary<GroupBox, Product> boxProduct =
@@ -40,11 +25,13 @@ namespace Hackaton
         public GroupBox CreateProductGroupBox(Product product, Point location)
         {
             var groupBox = new GroupBox();
+            boxProduct[groupBox] = product;
 
             groupBox.Text = product.Name;
             groupBox.ForeColor = new Color();
-            groupBox.Width = 200;
-            groupBox.Height = 150;
+
+            groupBox.Width = (ClientSize.Width - 60) / 2;
+            groupBox.Height = (int)(groupBox.Width / Math.Sqrt(2));
 
             #region bg
             var backGround = new PictureBox();
@@ -53,6 +40,11 @@ namespace Hackaton
             backGround.SizeMode = PictureBoxSizeMode.StretchImage;
             backGround.Image = product.Image;
             backGround.Location = new Point(0, 15);
+            backGround.Click += (sender, e) =>
+            {
+                new Description(product.Description).Show();
+
+            };
             groupBox.Controls.Add(backGround);
             backGround.SendToBack();
             #endregion
@@ -79,6 +71,7 @@ namespace Hackaton
             {
                 product.Count++;
                 priceTextBox.Text = $"Price: {product.Price}";
+                RefreshTotalPrice();
             };
             groupBox.Controls.Add(buttonPlus);
             buttonPlus.BringToFront();
@@ -92,25 +85,88 @@ namespace Hackaton
             buttonMinus.Image = new Bitmap(@"C:\Users\dmitr\Desktop\Dima HW\ЯТП_С#\Hackathon\Hackaton\Hackaton\Images\minusButton.png");
             buttonMinus.Click += (sender, e) =>
             {
-                product.Count--;
+                if (product.Count > 0)
+                    product.Count--;
                 priceTextBox.Text = $"Price: {product.Price}";
+                RefreshTotalPrice();
             };
             groupBox.Controls.Add(buttonMinus);
             buttonMinus.BringToFront();
+            #endregion
+
+            #region buttonDelete
+            var buttonDelete = new PictureBox();
+            buttonDelete.BackColor = Color.Transparent;
+            buttonDelete.SizeMode = PictureBoxSizeMode.AutoSize;
+            buttonDelete.Location = new Point(groupBox.Width - 40, 25);
+            buttonDelete.Image = new Bitmap(@"C:\Users\dmitr\Desktop\Dima HW\ЯТП_С#\Hackathon\Hackaton\Hackaton\Images\deleteButton.png");
+            buttonDelete.Click += (sender, e) =>
+            {
+                Bascket.Products.Remove(boxProduct[groupBox]);
+                boxProduct.Remove(groupBox);
+                mainPanel.Controls.Remove(groupBox);
+                RefreshProducts();
+                RefreshTotalPrice();
+            };
+            groupBox.Controls.Add(buttonDelete);
+            buttonDelete.BringToFront();
             #endregion
 
             groupBox.Location = location;
             return groupBox;
         }
 
-        private void CreateDocument_Click(object sender, EventArgs e)
+        private void RefreshProducts()
         {
-
+            int i = 0;
+            mainPanel.Controls.Clear();
+            foreach (var pair in boxProduct)
+            {
+                pair.Key.Location = GetLocation(i);
+                mainPanel.Controls.Add(pair.Key);
+                i++;
+            }
+            Validate();
         }
 
-        private void BascketWin_Load(object sender, EventArgs e)
+        public void CreatePoducts()
         {
+            for (int i = 0; i < Bascket.Products.Count; i++)
+            {
+                mainPanel.Controls.Add(CreateProductGroupBox(Bascket.Products[i], GetLocation(i)));
+            }
+            RefreshTotalPrice();
+        }
 
+        private Point GetLocation(int i)
+        {
+            int width = (ClientSize.Width - 60) / 2;
+            int height = (int)(width / Math.Sqrt(2));
+            if (i == 0)
+                return new Point(20, 0);
+            if (i == 1)
+                return new Point(40 + width, 0);
+            var p = new Point(0, height + 20);
+            var res = GetLocation(i - 2);
+            res.Offset(p);
+            return res;
+        }
+
+        private void RefreshTotalPrice()
+        {
+            TotalPrice.Text = $"Total Price: {Bascket.Price}";
+        }
+
+        private void Cleaner_Click(object sender, EventArgs e)
+        {
+            foreach (var pair in boxProduct)
+            {
+                mainPanel.Controls.Remove(pair.Key);
+            }
+            Bascket.Products.Clear();
+            RefreshTotalPrice();
+            boxProduct.Clear();
+            Validate(); 
         }
     }
 }

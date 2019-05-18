@@ -30,8 +30,9 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(BascketWin));
             this.CreateDocument = new System.Windows.Forms.Button();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.TotalPrice = new System.Windows.Forms.TextBox();
             this.Cleaner = new System.Windows.Forms.Button();
+            this.mainPanel = new System.Windows.Forms.Panel();
             this.SuspendLayout();
             // 
             // CreateDocument
@@ -43,17 +44,16 @@
             this.CreateDocument.TabIndex = 0;
             this.CreateDocument.Text = "Create Document";
             this.CreateDocument.UseVisualStyleBackColor = true;
-            this.CreateDocument.Click += new System.EventHandler(this.CreateDocument_Click);
             // 
-            // textBox1
+            // TotalPrice
             // 
-            this.textBox1.Enabled = false;
-            this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.textBox1.Location = new System.Drawing.Point(12, 391);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(270, 35);
-            this.textBox1.TabIndex = 1;
-            this.textBox1.Text = "Price: ";
+            this.TotalPrice.Enabled = false;
+            this.TotalPrice.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.TotalPrice.Location = new System.Drawing.Point(12, 391);
+            this.TotalPrice.Name = "TotalPrice";
+            this.TotalPrice.Size = new System.Drawing.Size(270, 35);
+            this.TotalPrice.TabIndex = 1;
+            this.TotalPrice.Text = "Price: ";
             // 
             // Cleaner
             // 
@@ -64,19 +64,30 @@
             this.Cleaner.TabIndex = 3;
             this.Cleaner.Text = "Clear";
             this.Cleaner.UseVisualStyleBackColor = true;
+            this.Cleaner.Click += new System.EventHandler(this.Cleaner_Click);
+            // 
+            // mainPanel
+            // 
+            this.mainPanel.AutoScroll = true;
+            this.mainPanel.Location = new System.Drawing.Point(0, 12);
+            this.mainPanel.Name = "mainPanel";
+            this.mainPanel.Size = new System.Drawing.Size(678, 358);
+            this.mainPanel.TabIndex = 4;
             // 
             // BascketWin
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.ClientSize = new System.Drawing.Size(678, 444);
+            this.Controls.Add(this.mainPanel);
             this.Controls.Add(this.Cleaner);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.TotalPrice);
             this.Controls.Add(this.CreateDocument);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.MaximizeBox = false;
             this.Name = "BascketWin";
             this.Text = "Bascket";
-            this.Load += new System.EventHandler(this.BascketWin_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -85,8 +96,9 @@
         #endregion
 
         private System.Windows.Forms.Button CreateDocument;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox TotalPrice;
         private System.Windows.Forms.Button Cleaner;
+        private System.Windows.Forms.Panel mainPanel;
     }
 }
 
