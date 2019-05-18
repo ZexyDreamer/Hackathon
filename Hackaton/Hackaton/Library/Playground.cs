@@ -6,6 +6,7 @@ namespace Hackaton
     {
         public Bitmap Image { get; set; }
         public double Price { get; set; }
+        public string Description { get; set; }
         public int Count { get; set; }
         public string Name { get; set; }
         public double? Size { get; set; }
