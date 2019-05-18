@@ -10,11 +10,16 @@ using System.Windows.Forms;
 
 namespace Hackaton
 {
-    public partial class Form1 : Form
+    public partial class BascketWin : Form
     {
-        public Form1()
+        public BascketWin()
         {
             InitializeComponent();
+        }
+
+        private void listBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }
