@@ -11,6 +11,8 @@
         <e p="Bascket Window.resx" t="Include" />
         <e p="Bascket.cs" t="Include" />
         <e p="Category.cs" t="Include" />
+        <e p="Description.Designer.cs" t="Include" />
+        <e p="Description.cs" t="Include" />
         <e p="Hackaton.csproj" t="IncludeRecursive" />
         <e p="IItem.cs" t="Include" />
         <e p="IProduct.cs" t="Include" />
@@ -22,6 +24,9 @@
           <e p="Detskaya_ploshadka.jpg" t="Include" />
           <e p="Gazon.jpeg" t="Include" />
           <e p="Grill.jpeg" t="Include" />
+          <e p="deleteButton.png" t="Include" />
+          <e p="minusButton.png" t="Include" />
+          <e p="plusButton.png" t="Include" />
         </e>
         <e p="Library" t="Include">
           <e p="Bench.cs" t="Include" />
@@ -39,6 +44,7 @@
         <e p="MainMenu.Designer.cs" t="Include" />
         <e p="MainMenu.cs" t="Include" />
         <e p="MainMenu.resx" t="Include" />
+        <e p="Product.cs" t="Include" />
         <e p="Program.cs" t="Include" />
         <e p="Properties" t="Include">
           <e p="AssemblyInfo.cs" t="Include" />
