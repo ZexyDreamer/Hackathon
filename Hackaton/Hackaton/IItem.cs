@@ -1,12 +1,14 @@
+using System.Drawing;
+
 namespace Hackaton
 {
     public interface IItem
     {
-        public Bitmap Image;
-        public double Price;
-        public double? Count = null;
-        public string Name;
-        public double? Size = null;
-        public double GetSum(double price, double count, double size = 0);
+        Bitmap Image { get; set; }
+        double Price { get; set; }
+        int Count { get; set; }
+        string Name { get; set; }
+        double? Size { get; set; }
+        double Sum { get; }
     }
 }

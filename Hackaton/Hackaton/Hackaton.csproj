@@ -54,6 +54,19 @@
     <Compile Include="Bascket Window.Designer.cs">
       <DependentUpon>Bascket Window.cs</DependentUpon>
     </Compile>
+    <Compile Include="IItem.cs" />
+    <Compile Include="IService.cs" />
+    <Compile Include="Library\Bench.cs" />
+    <Compile Include="Library\Cement.cs" />
+    <Compile Include="Library\Concrete.cs" />
+    <Compile Include="Library\Door.cs" />
+    <Compile Include="Library\Grass.cs" />
+    <Compile Include="Library\Grill.cs" />
+    <Compile Include="Library\Paint.cs" />
+    <Compile Include="Library\Playground.cs" />
+    <Compile Include="Library\Putty.cs" />
+    <Compile Include="Library\Service.cs" />
+    <Compile Include="Library\Toolset.cs" />
     <Compile Include="MainMenu.cs">
       <SubType>Form</SubType>
     </Compile>

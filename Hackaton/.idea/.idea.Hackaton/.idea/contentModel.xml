@@ -12,6 +12,8 @@
         <e p="Bascket.cs" t="Include" />
         <e p="Category.cs" t="Include" />
         <e p="Hackaton.csproj" t="IncludeRecursive" />
+        <e p="IItem.cs" t="Include" />
+        <e p="IService.cs" t="Include" />
         <e p="Images" t="Include">
           <e p="Bench.jpg" t="Include" />
           <e p="Cement.jpg" t="Include" />
@@ -19,6 +21,19 @@
           <e p="Detskaya_ploshadka.jpg" t="Include" />
           <e p="Gazon.jpeg" t="Include" />
           <e p="Grill.jpeg" t="Include" />
+        </e>
+        <e p="Library" t="Include">
+          <e p="Bench.cs" t="Include" />
+          <e p="Cement.cs" t="Include" />
+          <e p="Concrete.cs" t="Include" />
+          <e p="Door.cs" t="Include" />
+          <e p="Grass.cs" t="Include" />
+          <e p="Grill.cs" t="Include" />
+          <e p="Paint.cs" t="Include" />
+          <e p="Playground.cs" t="Include" />
+          <e p="Putty.cs" t="Include" />
+          <e p="Service.cs" t="Include" />
+          <e p="Toolset.cs" t="Include" />
         </e>
         <e p="MainMenu.Designer.cs" t="Include" />
         <e p="MainMenu.cs" t="Include" />
