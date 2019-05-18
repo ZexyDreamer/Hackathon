@@ -54,7 +54,6 @@
     <Compile Include="Bascket Window.Designer.cs">
       <DependentUpon>Bascket Window.cs</DependentUpon>
     </Compile>
-<<<<<<< HEAD
     <Compile Include="Description.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -62,7 +61,6 @@
       <DependentUpon>Description.cs</DependentUpon>
     </Compile>
     <Compile Include="Product.cs" />
-=======
     <Compile Include="IItem.cs" />
     <Compile Include="IProduct.cs" />
     <Compile Include="IService.cs" />
@@ -83,7 +81,6 @@
     <Compile Include="MainMenu.Designer.cs">
       <DependentUpon>MainMenu.cs</DependentUpon>
     </Compile>
->>>>>>> Valera
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Bascket Window.resx">
@@ -123,18 +120,12 @@
     <Content Include="Images\Bench.jpg" />
     <Content Include="Images\Cement.jpg" />
     <Content Include="Images\Concrete.jpeg" />
-<<<<<<< HEAD
     <Content Include="Images\deleteButton.png" />
     <Content Include="Images\Detskaya_ploshadka.jpg" />
     <Content Include="Images\Gazon.jpeg" />
     <Content Include="Images\Grill.jpeg" />
     <Content Include="Images\minusButton.png" />
     <Content Include="Images\plusButton.png" />
-=======
-    <Content Include="Images\Detskaya_ploshadka.jpg" />
-    <Content Include="Images\Gazon.jpeg" />
-    <Content Include="Images\Grill.jpeg" />
->>>>>>> Valera
     <Content Include="TreeIcon.ico" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
