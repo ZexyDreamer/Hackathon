@@ -76,6 +76,7 @@
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "BascketWin";
             this.Text = "Bascket";
+            this.Load += new System.EventHandler(this.BascketWin_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

@@ -83,6 +83,14 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Images\Bench.jpg" />
+    <Content Include="Images\Cement.jpg" />
+    <Content Include="Images\Concrete.jpeg" />
+    <Content Include="Images\Detskaya_ploshadka.jpg" />
+    <Content Include="Images\Gazon.jpeg" />
+    <Content Include="Images\Grill.jpeg" />
+    <Content Include="Images\minusButton.png" />
+    <Content Include="Images\plusButton.png" />
     <Content Include="TreeIcon.ico" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
