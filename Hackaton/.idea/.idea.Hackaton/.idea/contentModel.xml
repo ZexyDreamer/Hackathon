@@ -13,6 +13,7 @@
         <e p="Category.cs" t="Include" />
         <e p="Hackaton.csproj" t="IncludeRecursive" />
         <e p="IItem.cs" t="Include" />
+        <e p="IProduct.cs" t="Include" />
         <e p="IService.cs" t="Include" />
         <e p="Images" t="Include">
           <e p="Bench.jpg" t="Include" />
@@ -31,7 +32,6 @@
           <e p="Grill.cs" t="Include" />
           <e p="Paint.cs" t="Include" />
           <e p="Playground.cs" t="Include" />
-          <e p="Product.cs" t="Include" />
           <e p="Putty.cs" t="Include" />
           <e p="Service.cs" t="Include" />
           <e p="Toolset.cs" t="Include" />

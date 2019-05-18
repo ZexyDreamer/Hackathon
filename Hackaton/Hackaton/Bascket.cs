@@ -8,11 +8,11 @@ namespace Hackaton
 {
     public class Bascket
     {
-        public List<Product> Products;
+        public List<IItem> Products;
 
         public Bascket()
         {
-            Products = new List<Product>();
+            Products = new List<IItem>();
         }
 
         public double Price => Products.Select(p => p.Price).Sum();

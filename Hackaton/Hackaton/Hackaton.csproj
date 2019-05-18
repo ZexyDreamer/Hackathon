@@ -55,6 +55,7 @@
       <DependentUpon>Bascket Window.cs</DependentUpon>
     </Compile>
     <Compile Include="IItem.cs" />
+    <Compile Include="IProduct.cs" />
     <Compile Include="IService.cs" />
     <Compile Include="Library\Bench.cs" />
     <Compile Include="Library\Cement.cs" />
@@ -64,7 +65,6 @@
     <Compile Include="Library\Grill.cs" />
     <Compile Include="Library\Paint.cs" />
     <Compile Include="Library\Playground.cs" />
-    <Compile Include="Library\Product.cs" />
     <Compile Include="Library\Putty.cs" />
     <Compile Include="Library\Service.cs" />
     <Compile Include="Library\Toolset.cs" />

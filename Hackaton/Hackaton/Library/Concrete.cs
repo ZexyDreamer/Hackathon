@@ -2,14 +2,14 @@ using System.Drawing;
 
 namespace Hackaton
 {
-    public class Concrete : IItem
+    public class Concrete : IProduct
     {
         public Bitmap Image { get; set; }
         public double Price { get; set; }
         public int Count { get; set; }
         public string Name { get; set; }
         public double? Size { get; set; }
-        public double Sum => Price * Count;
+        public double Sum { get; }
         
         public Concrete(Bitmap image, double price, string name, double sum, double size = 0, int count = 1)
         {
