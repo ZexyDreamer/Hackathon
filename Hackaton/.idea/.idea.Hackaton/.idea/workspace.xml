@@ -1,7 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b25d74cb-76f9-48c5-a629-2578bfd63aa6" name="Default Changelist" comment="" />
+    <list default="true" id="b25d74cb-76f9-48c5-a629-2578bfd63aa6" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Hackaton/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Hackaton/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hackaton/Hackaton.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Hackaton/Hackaton.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hackaton/Product.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Hackaton/Product.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hackaton/bin/Debug/Hackaton.exe" beforeDir="false" afterPath="$PROJECT_DIR$/Hackaton/bin/Debug/Hackaton.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hackaton/bin/Debug/Hackaton.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Hackaton/bin/Debug/Hackaton.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hackaton/obj/Debug/Hackaton.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Hackaton/obj/Debug/Hackaton.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hackaton/obj/Debug/Hackaton.csproj.GenerateResource.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Hackaton/obj/Debug/Hackaton.csproj.GenerateResource.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hackaton/obj/Debug/Hackaton.exe" beforeDir="false" afterPath="$PROJECT_DIR$/Hackaton/obj/Debug/Hackaton.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hackaton/obj/Debug/Hackaton.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Hackaton/obj/Debug/Hackaton.pdb" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -9,50 +19,24 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Hackaton/Program.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="8" column="24" lean-forward="true" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
-              <folding>
-                <marker date="1558168142536" expanded="false" signature="6:124" ph="..." />
-                <marker date="1558168142536" expanded="true" signature="144:499" ph="{...}" />
-                <marker date="1558168142536" expanded="true" signature="171:497" ph="{...}" />
-                <marker date="1558168142536" expanded="true" signature="186:270" ph="/// Главная точка входа для приложения. ... " />
-                <marker date="1558168142536" expanded="true" signature="317:491" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Hackaton/Category.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="27" lean-forward="true" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="27" />
-              <folding>
-                <marker date="1558168150440" expanded="true" signature="6:78" ph="..." />
-                <marker date="1558168150440" expanded="true" signature="98:238" ph="{...}" />
-                <marker date="1558168150440" expanded="true" signature="126:236" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Hackaton/Category.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Hackaton/Product.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Hackaton/Form1.Designer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Hackaton/Form1.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Hackaton/Program.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Hackaton/Category.cs" />
+        <option value="$PROJECT_DIR$/Hackaton/Hackaton.csproj" />
+        <option value="$PROJECT_DIR$/Hackaton/Product.cs" />
       </list>
     </option>
   </component>
@@ -69,7 +53,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="FileSystemExplorer" />
       <pane id="SolutionExplorer">
         <subPane>
           <expand>
@@ -82,12 +65,19 @@
               <item name="Hackaton" type="24d0babc:SolutionExplorerModelNode" />
               <item name="Hackaton" type="24d0babc:SolutionExplorerModelNode" />
             </path>
+            <path>
+              <item name="" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="Hackaton" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Hackaton" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Form1.cs" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
           </expand>
           <select />
         </subPane>
         <option name="show-all-files" value="false" />
       </pane>
       <pane id="AssemblyExplorer" />
+      <pane id="FileSystemExplorer" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -144,11 +134,12 @@
       <option name="presentableId" value="Default" />
       <updated>1558166240251</updated>
       <workItem from="1558166245969" duration="1977000" />
+      <workItem from="1558169837565" duration="116000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1977000" />
+    <option name="totallyTimeSpent" value="2093000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -161,20 +152,10 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1366" height="768" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15936556" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16163142" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="NuGet" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Unit Tests" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Performance Profiler" />
-      <window_info active="true" anchor="bottom" id="Build" visible="true" weight="0.329653" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.329653" />
@@ -182,18 +163,27 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Errors In Solution" />
-      <window_info anchor="right" id="Database" />
-      <window_info anchor="right" id="Unit Tests Coverage" />
+      <window_info anchor="bottom" id="NuGet" order="7" />
+      <window_info anchor="bottom" id="Performance Profiler" order="8" />
+      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="10" />
+      <window_info anchor="bottom" id="Database Changes" order="11" />
+      <window_info anchor="bottom" id="Unit Tests" order="12" />
+      <window_info anchor="bottom" id="Terminal" order="13" />
+      <window_info anchor="bottom" id="Event Log" order="14" side_tool="true" />
+      <window_info active="true" anchor="bottom" id="Build" order="15" visible="true" weight="0.329653" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Errors In Solution" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="right" id="Unit Tests Coverage" order="5" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="UnityProjectConfiguration" hasMinimizedUI="null" />
+  <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -206,16 +196,22 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Hackaton/Program.cs">
+    <entry file="file://$PROJECT_DIR$/Hackaton/Hackaton.csproj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="48" column="37" selection-start-line="48" selection-start-column="37" selection-end-line="48" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Hackaton/Product.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
-          <caret line="8" column="24" lean-forward="true" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
+          <caret line="9" column="11" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
           <folding>
-            <marker date="1558168142536" expanded="false" signature="6:124" ph="..." />
-            <marker date="1558168142536" expanded="true" signature="144:499" ph="{...}" />
-            <marker date="1558168142536" expanded="true" signature="171:497" ph="{...}" />
-            <marker date="1558168142536" expanded="true" signature="186:270" ph="/// Главная точка входа для приложения. ... " />
-            <marker date="1558168142536" expanded="true" signature="317:491" ph="{...}" />
+            <marker date="1558169902816" expanded="false" signature="6:137" ph="..." />
+            <marker date="1558169902816" expanded="true" signature="157:721" ph="{...}" />
+            <marker date="1558169902816" expanded="true" signature="184:719" ph="{...}" />
+            <marker date="1558169902816" expanded="true" signature="493:713" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -223,11 +219,57 @@
     <entry file="file://$PROJECT_DIR$/Hackaton/Category.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
-          <caret line="9" column="27" lean-forward="true" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="27" />
+          <caret line="9" column="27" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="27" />
           <folding>
-            <marker date="1558168150440" expanded="true" signature="6:78" ph="..." />
-            <marker date="1558168150440" expanded="true" signature="98:238" ph="{...}" />
-            <marker date="1558168150440" expanded="true" signature="126:236" ph="{...}" />
+            <marker date="1558169233969" expanded="true" signature="6:78" ph="..." />
+            <marker date="1558169233969" expanded="true" signature="98:403" ph="{...}" />
+            <marker date="1558169233969" expanded="true" signature="126:401" ph="{...}" />
+            <marker date="1558169233969" expanded="true" signature="284:395" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Hackaton/Form1.Designer.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="8" selection-start-line="22" selection-start-column="8" selection-end-line="22" selection-end-column="8" />
+          <folding>
+            <marker date="1558169225441" expanded="true" signature="18:1232" ph="{...}" />
+            <marker date="1558169225441" expanded="true" signature="44:1230" ph="{...}" />
+            <marker date="1558169225441" expanded="true" signature="59:145" ph="/// Обязательная переменная конструктора. ... " />
+            <marker date="1558169225441" expanded="true" signature="223:418" ph="/// Освободить все используемые ресурсы. ... " />
+            <marker date="1558169225441" expanded="true" signature="474:648" ph="{...}" />
+            <marker date="1558169225441" expanded="true" signature="535:601" ph="{...}" />
+            <marker date="1558169225441" expanded="false" signature="658:1224" ph="Код, автоматически созданный конструктором форм Windows" />
+            <marker date="1558169225441" expanded="true" signature="731:900" ph="/// Требуемый метод для поддержки конструктора — не изменяйте  ... " />
+            <marker date="1558169225441" expanded="true" signature="943:1204" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Hackaton/Form1.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="12" column="25" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
+          <folding>
+            <marker date="1558169225441" expanded="false" signature="6:213" ph="..." />
+            <marker date="1558169225441" expanded="true" signature="233:365" ph="{...}" />
+            <marker date="1558169225441" expanded="true" signature="273:363" ph="{...}" />
+            <marker date="1558169225441" expanded="true" signature="302:357" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Hackaton/Program.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="8" column="24" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
+          <folding>
+            <marker date="1558169225441" expanded="false" signature="6:124" ph="..." />
+            <marker date="1558169225441" expanded="true" signature="144:499" ph="{...}" />
+            <marker date="1558169225441" expanded="true" signature="171:497" ph="{...}" />
+            <marker date="1558169225441" expanded="true" signature="186:270" ph="/// Главная точка входа для приложения. ... " />
+            <marker date="1558169225441" expanded="true" signature="317:491" ph="{...}" />
           </folding>
         </state>
       </provider>

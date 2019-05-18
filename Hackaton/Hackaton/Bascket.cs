@@ -6,18 +6,15 @@ using System.Threading.Tasks;
 
 namespace Hackaton
 {
-    class Bascket
+    public class Bascket
     {
-        public List<Product> Products = new List<Product>();
+        public List<Product> Products;
 
         public Bascket()
         {
-
+            Products = new List<Product>();
         }
 
-        public double GetPrice()
-        {
-            return Products.Select(p => p.Price).Sum();
-        }
+        public double Price => Products.Select(p => p.Price).Sum();
     }
 }
