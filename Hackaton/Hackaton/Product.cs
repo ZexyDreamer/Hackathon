@@ -11,9 +11,9 @@ namespace Hackaton
     {
         public Bitmap Image;
         public double Price;
-        public double Count;
+        public double? Count = null;
         public string Name;
-        public double Size;
+        public double? Size = null;
         public string Description;
 
         public Product(Bitmap Image, double Price, double Count, string Name, 
