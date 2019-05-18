@@ -54,6 +54,7 @@
     <Compile Include="Bascket Window.Designer.cs">
       <DependentUpon>Bascket Window.cs</DependentUpon>
     </Compile>
+<<<<<<< HEAD
     <Compile Include="Description.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -61,10 +62,36 @@
       <DependentUpon>Description.cs</DependentUpon>
     </Compile>
     <Compile Include="Product.cs" />
+=======
+    <Compile Include="IItem.cs" />
+    <Compile Include="IProduct.cs" />
+    <Compile Include="IService.cs" />
+    <Compile Include="Library\Bench.cs" />
+    <Compile Include="Library\Cement.cs" />
+    <Compile Include="Library\Concrete.cs" />
+    <Compile Include="Library\Door.cs" />
+    <Compile Include="Library\Grass.cs" />
+    <Compile Include="Library\Grill.cs" />
+    <Compile Include="Library\Paint.cs" />
+    <Compile Include="Library\Playground.cs" />
+    <Compile Include="Library\Putty.cs" />
+    <Compile Include="Library\Service.cs" />
+    <Compile Include="Library\Toolset.cs" />
+    <Compile Include="MainMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainMenu.Designer.cs">
+      <DependentUpon>MainMenu.cs</DependentUpon>
+    </Compile>
+>>>>>>> Valera
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Bascket Window.resx">
       <DependentUpon>Bascket Window.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainMenu.resx">
+      <DependentUpon>MainMenu.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Description.resx">
       <DependentUpon>Description.cs</DependentUpon>
@@ -77,6 +104,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -95,12 +123,18 @@
     <Content Include="Images\Bench.jpg" />
     <Content Include="Images\Cement.jpg" />
     <Content Include="Images\Concrete.jpeg" />
+<<<<<<< HEAD
     <Content Include="Images\deleteButton.png" />
     <Content Include="Images\Detskaya_ploshadka.jpg" />
     <Content Include="Images\Gazon.jpeg" />
     <Content Include="Images\Grill.jpeg" />
     <Content Include="Images\minusButton.png" />
     <Content Include="Images\plusButton.png" />
+=======
+    <Content Include="Images\Detskaya_ploshadka.jpg" />
+    <Content Include="Images\Gazon.jpeg" />
+    <Content Include="Images\Grill.jpeg" />
+>>>>>>> Valera
     <Content Include="TreeIcon.ico" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

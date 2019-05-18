@@ -6,12 +6,39 @@
     <e p="$PROJECT_DIR$" t="IncludeFlat">
       <e p="Hackaton" t="IncludeRecursive">
         <e p="App.config" t="Include" />
+        <e p="Bascket Window.Designer.cs" t="Include" />
+        <e p="Bascket Window.cs" t="Include" />
+        <e p="Bascket Window.resx" t="Include" />
         <e p="Bascket.cs" t="Include" />
         <e p="Category.cs" t="Include" />
-        <e p="Form1.Designer.cs" t="Include" />
-        <e p="Form1.cs" t="Include" />
         <e p="Hackaton.csproj" t="IncludeRecursive" />
-        <e p="Product.cs" t="Include" />
+        <e p="IItem.cs" t="Include" />
+        <e p="IProduct.cs" t="Include" />
+        <e p="IService.cs" t="Include" />
+        <e p="Images" t="Include">
+          <e p="Bench.jpg" t="Include" />
+          <e p="Cement.jpg" t="Include" />
+          <e p="Concrete.jpeg" t="Include" />
+          <e p="Detskaya_ploshadka.jpg" t="Include" />
+          <e p="Gazon.jpeg" t="Include" />
+          <e p="Grill.jpeg" t="Include" />
+        </e>
+        <e p="Library" t="Include">
+          <e p="Bench.cs" t="Include" />
+          <e p="Cement.cs" t="Include" />
+          <e p="Concrete.cs" t="Include" />
+          <e p="Door.cs" t="Include" />
+          <e p="Grass.cs" t="Include" />
+          <e p="Grill.cs" t="Include" />
+          <e p="Paint.cs" t="Include" />
+          <e p="Playground.cs" t="Include" />
+          <e p="Putty.cs" t="Include" />
+          <e p="Service.cs" t="Include" />
+          <e p="Toolset.cs" t="Include" />
+        </e>
+        <e p="MainMenu.Designer.cs" t="Include" />
+        <e p="MainMenu.cs" t="Include" />
+        <e p="MainMenu.resx" t="Include" />
         <e p="Program.cs" t="Include" />
         <e p="Properties" t="Include">
           <e p="AssemblyInfo.cs" t="Include" />
@@ -20,6 +47,7 @@
           <e p="Settings.Designer.cs" t="Include" />
           <e p="Settings.settings" t="Include" />
         </e>
+        <e p="TreeIcon.ico" t="Include" />
         <e p="bin" t="ExcludeRecursive" />
         <e p="obj" t="ExcludeRecursive" />
       </e>

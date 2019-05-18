@@ -16,7 +16,7 @@ namespace Hackaton
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new BascketWin());
+            Application.Run(new MainMenu());
         }
     }
 }

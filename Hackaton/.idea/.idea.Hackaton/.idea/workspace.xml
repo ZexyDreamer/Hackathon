@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
+<<<<<<< HEAD
     <list default="true" id="b25d74cb-76f9-48c5-a629-2578bfd63aa6" name="Default Changelist" comment="" />
+=======
+    <list default="true" id="b25d74cb-76f9-48c5-a629-2578bfd63aa6" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/Hackaton/IItem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Hackaton/IItem.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hackaton/IService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Hackaton/IService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hackaton/Library/Bench.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Hackaton/Library/Bench.cs" afterDir="false" />
+    </list>
+>>>>>>> Valera
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -9,26 +17,81 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Hackaton/Library/Bench.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="8" column="26" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
+              <folding>
+                <marker date="1558211382501" expanded="true" signature="41:646" ph="{...}" />
+                <marker date="1558211382501" expanded="true" signature="77:644" ph="{...}" />
+                <marker date="1558211382501" expanded="true" signature="487:638" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Hackaton/Properties/Settings.Designer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Hackaton/Bascket.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Hackaton/MainMenu.resx" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Hackaton/Bascket Window.resx" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Hackaton/Bascket Window.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Hackaton/IProduct.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Hackaton/Library/Bench.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Hackaton/Library/Cement.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Hackaton/Category.cs" root0="FORCE_HIGHLIGHTING" />
+<<<<<<< HEAD
     <setting file="file://$PROJECT_DIR$/Hackaton/Program.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Hackaton/Properties/Settings.Designer.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Hackaton/Bascket.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Hackaton/Product.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Hackaton/Bascket Window.resx" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Hackaton/Bascket Window.cs" root0="FORCE_HIGHLIGHTING" />
+=======
+    <setting file="file://$PROJECT_DIR$/Hackaton/Library/Concrete.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Hackaton/Library/Grass.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Hackaton/Library/Grill.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Hackaton/Library/Playground.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Hackaton/Library/Toolset.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Hackaton/Library/Door.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Hackaton/Library/Paint.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Hackaton/Library/Putty.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Hackaton/Program.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Hackaton/IService.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Hackaton/Library/Service.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Hackaton/IItem.cs" root0="FORCE_HIGHLIGHTING" />
+>>>>>>> Valera
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Hackaton/Category.cs" />
         <option value="$PROJECT_DIR$/Hackaton/Hackaton.csproj" />
+        <option value="$PROJECT_DIR$/Hackaton/Library/Service.cs" />
+        <option value="$PROJECT_DIR$/Hackaton/Зкщвгсе.cs" />
         <option value="$PROJECT_DIR$/Hackaton/Product.cs" />
+        <option value="$PROJECT_DIR$/Hackaton/Library/Concrete.cs" />
+        <option value="$PROJECT_DIR$/Hackaton/Library/Cement.cs" />
+        <option value="$PROJECT_DIR$/Hackaton/Library/Door.cs" />
+        <option value="$PROJECT_DIR$/Hackaton/Library/Grass.cs" />
+        <option value="$PROJECT_DIR$/Hackaton/Library/Grill.cs" />
+        <option value="$PROJECT_DIR$/Hackaton/Library/Paint.cs" />
+        <option value="$PROJECT_DIR$/Hackaton/Library/Playground.cs" />
+        <option value="$PROJECT_DIR$/Hackaton/Library/Product.cs" />
+        <option value="$PROJECT_DIR$/Hackaton/Library/Putty.cs" />
+        <option value="$PROJECT_DIR$/Hackaton/Library/Toolset.cs" />
+        <option value="$PROJECT_DIR$/Hackaton/IProduct.cs" />
+        <option value="$PROJECT_DIR$/Hackaton/Category.cs" />
+        <option value="$PROJECT_DIR$/Hackaton/Bascket.cs" />
+        <option value="$PROJECT_DIR$/Hackaton/IItem.cs" />
+        <option value="$PROJECT_DIR$/Hackaton/IService.cs" />
+        <option value="$PROJECT_DIR$/Hackaton/Library/Bench.cs" />
       </list>
     </option>
   </component>
@@ -58,6 +121,15 @@
               <item name="Hackaton" type="24d0babc:SolutionExplorerModelNode" />
               <item name="Hackaton" type="24d0babc:SolutionExplorerModelNode" />
             </path>
+<<<<<<< HEAD
+=======
+            <path>
+              <item name="" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="Hackaton" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Hackaton" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Library" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+>>>>>>> Valera
           </expand>
           <select />
         </subPane>
@@ -70,6 +142,7 @@
     <property name="Rider.DefaultBreakpoints.AreToggled" value="true" />
     <property name="Rider.ProjectViewActivator.IsNotFirstRun" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Hackaton/IItem.cs" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -121,11 +194,15 @@
       <updated>1558166240251</updated>
       <workItem from="1558166245969" duration="1977000" />
       <workItem from="1558169837565" duration="116000" />
+      <workItem from="1558179216458" duration="105000" />
+      <workItem from="1558180429947" duration="92000" />
+      <workItem from="1558186855247" duration="37000" />
+      <workItem from="1558205725210" duration="5480000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2093000" />
+    <option name="totallyTimeSpent" value="7807000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -138,8 +215,13 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1366" height="768" extended-state="6" />
+    <editor active="true" />
     <layout>
+<<<<<<< HEAD
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16993958" />
+=======
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16993958" />
+>>>>>>> Valera
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -157,7 +239,7 @@
       <window_info anchor="bottom" id="Unit Tests" order="12" />
       <window_info anchor="bottom" id="Terminal" order="13" />
       <window_info anchor="bottom" id="Event Log" order="14" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Build" order="15" visible="true" weight="0.329653" />
+      <window_info anchor="bottom" id="Build" order="15" weight="0.329653" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -189,26 +271,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Hackaton/Product.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="9" column="11" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
-          <folding>
-            <marker date="1558169902816" expanded="false" signature="6:137" ph="..." />
-            <marker date="1558169902816" expanded="true" signature="157:721" ph="{...}" />
-            <marker date="1558169902816" expanded="true" signature="184:719" ph="{...}" />
-            <marker date="1558169902816" expanded="true" signature="493:713" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Hackaton/Category.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="27" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Hackaton/Form1.Designer.cs" />
     <entry file="file://$PROJECT_DIR$/Hackaton/Form1.cs" />
     <entry file="file://$PROJECT_DIR$/Hackaton/Program.cs">
@@ -221,6 +283,276 @@
             <marker date="1558169225441" expanded="true" signature="171:497" ph="{...}" />
             <marker date="1558169225441" expanded="true" signature="186:270" ph="/// Главная точка входа для приложения. ... " />
             <marker date="1558169225441" expanded="true" signature="317:491" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Hackaton/Properties/Settings.Designer.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="34" selection-start-line="16" selection-start-column="34" selection-end-line="16" selection-end-column="34" />
+          <folding>
+            <marker date="1558169225441" expanded="true" signature="0:395" ph="/* ------------------------------------------------------------------------------ ... */" />
+            <marker date="1558169225441" expanded="true" signature="426:1061" ph="{...}" />
+            <marker date="1558169225441" expanded="true" signature="755:1059" ph="{...}" />
+            <marker date="1558169225441" expanded="true" signature="949:1053" ph="{...}" />
+            <marker date="1558169225441" expanded="true" signature="975:1043" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Hackaton/Properties/Settings.settings">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Hackaton/MainMenu.resx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="12252" column="4" selection-start-line="12252" selection-start-column="4" selection-end-line="12252" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Hackaton/Bascket Window.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="12" column="25" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
+          <folding>
+            <marker date="1558179069806" expanded="false" signature="6:213" ph="..." />
+            <marker date="1558179069806" expanded="true" signature="233:655" ph="{...}" />
+            <marker date="1558179069806" expanded="true" signature="278:653" ph="{...}" />
+            <marker date="1558179069806" expanded="true" signature="312:367" ph="{...}" />
+            <marker date="1558179069806" expanded="true" signature="447:468" ph="{...}" />
+            <marker date="1558179069806" expanded="true" signature="534:555" ph="{...}" />
+            <marker date="1558179069806" expanded="true" signature="626:647" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Hackaton/Bascket Window.resx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="12249" column="9" selection-start-line="12249" selection-start-column="9" selection-end-line="12249" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Hackaton/Product.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="9" column="11" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Hackaton/Product.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="5" lean-forward="true" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Hackaton/Library/Cement.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="34" selection-start-line="11" selection-start-column="34" selection-end-line="11" selection-end-column="34" />
+          <folding>
+            <marker date="1558210659726" expanded="true" signature="41:601" ph="{...}" />
+            <marker date="1558210659726" expanded="true" signature="78:598" ph="{...}" />
+            <marker date="1558210659726" expanded="true" signature="441:592" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Hackaton/Library/Concrete.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="8" selection-start-line="13" selection-start-column="8" selection-end-line="20" selection-end-column="9" />
+          <folding>
+            <marker date="1558210661430" expanded="true" signature="41:604" ph="{...}" />
+            <marker date="1558210661430" expanded="true" signature="80:602" ph="{...}" />
+            <marker date="1558210661430" expanded="true" signature="445:596" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Hackaton/Library/Door.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="32" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="32" />
+          <folding>
+            <marker date="1558210724214" expanded="true" signature="41:596" ph="{...}" />
+            <marker date="1558210724214" expanded="true" signature="76:594" ph="{...}" />
+            <marker date="1558210724214" expanded="true" signature="437:588" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Hackaton/Library/Grass.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="32" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="32" />
+          <folding>
+            <marker date="1558210724226" expanded="true" signature="41:598" ph="{...}" />
+            <marker date="1558210724226" expanded="true" signature="77:596" ph="{...}" />
+            <marker date="1558210724226" expanded="true" signature="439:590" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Hackaton/Library/Grill.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="32" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="32" />
+          <folding>
+            <marker date="1558210724254" expanded="true" signature="41:598" ph="{...}" />
+            <marker date="1558210724254" expanded="true" signature="77:596" ph="{...}" />
+            <marker date="1558210724254" expanded="true" signature="439:590" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Hackaton/Library/Paint.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="32" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="32" />
+          <folding>
+            <marker date="1558210724234" expanded="true" signature="41:598" ph="{...}" />
+            <marker date="1558210724234" expanded="true" signature="77:596" ph="{...}" />
+            <marker date="1558210724234" expanded="true" signature="439:590" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Hackaton/Library/Product.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="32" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Hackaton/Library/Playground.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="32" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="32" />
+          <folding>
+            <marker date="1558210724246" expanded="true" signature="41:608" ph="{...}" />
+            <marker date="1558210724246" expanded="true" signature="82:606" ph="{...}" />
+            <marker date="1558210724246" expanded="true" signature="449:600" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Hackaton/Library/Putty.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="32" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="32" />
+          <folding>
+            <marker date="1558210791943" expanded="true" signature="41:598" ph="{...}" />
+            <marker date="1558210791943" expanded="true" signature="77:596" ph="{...}" />
+            <marker date="1558210791943" expanded="true" signature="439:590" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Hackaton/Library/Service.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="8" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
+          <folding>
+            <marker date="1558208365563" expanded="true" signature="18:391" ph="{...}" />
+            <marker date="1558208365563" expanded="true" signature="56:389" ph="{...}" />
+            <marker date="1558208365563" expanded="true" signature="272:383" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Hackaton/Library/Toolset.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="32" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="32" />
+          <folding>
+            <marker date="1558210791935" expanded="true" signature="41:602" ph="{...}" />
+            <marker date="1558210791935" expanded="true" signature="79:600" ph="{...}" />
+            <marker date="1558210791935" expanded="true" signature="443:594" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Hackaton/Category.cs">
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state relative-caret-position="135">
+          <caret line="9" column="27" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Hackaton/Form1.Designer.cs" />
+    <entry file="file://$PROJECT_DIR$/Hackaton/Form1.cs" />
+    <entry file="file://$PROJECT_DIR$/Hackaton/Program.cs">
+=======
+        <state relative-caret-position="210">
+          <caret line="16" column="41" selection-start-line="16" selection-start-column="41" selection-end-line="16" selection-end-column="41" />
+          <folding>
+            <marker date="1558211107879" expanded="false" signature="6:78" ph="..." />
+            <marker date="1558211107879" expanded="true" signature="98:408" ph="{...}" />
+            <marker date="1558211107879" expanded="true" signature="126:406" ph="{...}" />
+            <marker date="1558211107879" expanded="true" signature="282:400" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Hackaton/Bascket.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="37" selection-start-line="14" selection-start-column="37" selection-end-line="14" selection-end-column="37" />
+          <folding>
+            <marker date="1558211070666" expanded="true" signature="6:115" ph="..." />
+            <marker date="1558211070666" expanded="true" signature="135:370" ph="{...}" />
+            <marker date="1558211070666" expanded="true" signature="162:368" ph="{...}" />
+            <marker date="1558211070666" expanded="true" signature="231:293" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Hackaton/IProduct.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="5" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
+          <folding>
+            <marker date="1558211037302" expanded="true" signature="41:225" ph="{...}" />
+            <marker date="1558211037302" expanded="true" signature="81:223" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Hackaton/IService.cs">
+>>>>>>> Valera
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="5" selection-start-line="3" selection-start-column="5" selection-end-line="3" selection-end-column="5" />
+          <folding>
+            <marker date="1558211339961" expanded="true" signature="18:72" ph="{...}" />
+            <marker date="1558211339961" expanded="true" signature="58:70" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Hackaton/IItem.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="37" selection-start-line="6" selection-start-column="37" selection-end-line="6" selection-end-column="37" />
+          <folding>
+            <marker date="1558211382373" expanded="true" signature="18:171" ph="{...}" />
+            <marker date="1558211382373" expanded="true" signature="47:169" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Hackaton/Library/Bench.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="26" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
+          <folding>
+            <marker date="1558211382501" expanded="true" signature="41:646" ph="{...}" />
+            <marker date="1558211382501" expanded="true" signature="77:644" ph="{...}" />
+            <marker date="1558211382501" expanded="true" signature="487:638" ph="{...}" />
           </folding>
         </state>
       </provider>

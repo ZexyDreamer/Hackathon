@@ -8,12 +8,13 @@ namespace Hackaton
     {
         public Bitmap Image;
         public string Name;
-        public List<Product> ListProducts;
+        public List<IItem> ListProducts;
 
-        public Category(Bitmap image, string name){
+        public Category(Bitmap image, string name)
+        {
             Image = image;
             Name = name;
-            ListProducts = new List<Product>();
+            ListProducts = new List<IItem>();
         }
     }
 }

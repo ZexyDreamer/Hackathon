@@ -9,10 +9,15 @@ namespace Hackaton
 {
     public static class Bascket
     {
+<<<<<<< HEAD
         public static List<Product> Products;
+=======
+        public List<IItem> Products;
+>>>>>>> Valera
 
         static Bascket()
         {
+<<<<<<< HEAD
             Products = new List<Product>();
             for (int i = 0; i < 10; i++)
             {
@@ -25,6 +30,9 @@ namespace Hackaton
                     "газон обыкновенный");
                 Products.Add(p);
             }
+=======
+            Products = new List<IItem>();
+>>>>>>> Valera
         }
 
         public static double Price => Products.Select(p => p.Price).Sum();

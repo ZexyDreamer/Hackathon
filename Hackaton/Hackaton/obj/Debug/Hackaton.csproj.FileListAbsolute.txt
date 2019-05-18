@@ -7,6 +7,7 @@
 /home/user/Desktop/Repos/Hackathon/Hackathon/Hackaton/Hackaton/obj/Debug/Hackaton.csproj.CoreCompileInputs.cache
 /home/user/Desktop/Repos/Hackathon/Hackathon/Hackaton/Hackaton/obj/Debug/Hackaton.exe
 /home/user/Desktop/Repos/Hackathon/Hackathon/Hackaton/Hackaton/obj/Debug/Hackaton.pdb
+<<<<<<< HEAD
 C:\Users\dmitr\Desktop\Dima HW\ЯТП_С#\Hackathon\Hackaton\Hackaton\bin\Debug\Hackaton.exe.config
 C:\Users\dmitr\Desktop\Dima HW\ЯТП_С#\Hackathon\Hackaton\Hackaton\bin\Debug\Hackaton.exe
 C:\Users\dmitr\Desktop\Dima HW\ЯТП_С#\Hackathon\Hackaton\Hackaton\bin\Debug\Hackaton.pdb
@@ -18,3 +19,30 @@ C:\Users\dmitr\Desktop\Dima HW\ЯТП_С#\Hackathon\Hackaton\Hackaton\obj\Debug\
 C:\Users\dmitr\Desktop\Dima HW\ЯТП_С#\Hackathon\Hackaton\Hackaton\obj\Debug\Hackaton.exe
 C:\Users\dmitr\Desktop\Dima HW\ЯТП_С#\Hackathon\Hackaton\Hackaton\obj\Debug\Hackaton.pdb
 C:\Users\dmitr\Desktop\Dima HW\ЯТП_С#\Hackathon\Hackaton\Hackaton\obj\Debug\Hackaton.Description.resources
+=======
+<<<<<<< HEAD
+D:/GitHub/Hackathon/Hackaton/Hackaton/bin/Debug/Hackaton.exe.config
+D:/GitHub/Hackathon/Hackaton/Hackaton/bin/Debug/Hackaton.exe
+D:/GitHub/Hackathon/Hackaton/Hackaton/bin/Debug/Hackaton.pdb
+D:/GitHub/Hackathon/Hackaton/Hackaton/obj/Debug/Hackaton.csprojAssemblyReference.cache
+D:/GitHub/Hackathon/Hackaton/Hackaton/obj/Debug/Hackaton.Form1.resources
+D:/GitHub/Hackathon/Hackaton/Hackaton/obj/Debug/Hackaton.Properties.Resources.resources
+D:/GitHub/Hackathon/Hackaton/Hackaton/obj/Debug/Hackaton.csproj.GenerateResource.cache
+D:/GitHub/Hackathon/Hackaton/Hackaton/obj/Debug/Hackaton.csproj.CoreCompileInputs.cache
+D:/GitHub/Hackathon/Hackaton/Hackaton/obj/Debug/Hackaton.exe
+D:/GitHub/Hackathon/Hackaton/Hackaton/obj/Debug/Hackaton.pdb
+=======
+C:/Users/dmitr/Desktop/Dima HW/ЯТП_С#/Hackathon/Hackaton/Hackaton/bin/Debug/Hackaton.exe.config
+C:/Users/dmitr/Desktop/Dima HW/ЯТП_С#/Hackathon/Hackaton/Hackaton/bin/Debug/Hackaton.exe
+C:/Users/dmitr/Desktop/Dima HW/ЯТП_С#/Hackathon/Hackaton/Hackaton/bin/Debug/Hackaton.pdb
+C:/Users/dmitr/Desktop/Dima HW/ЯТП_С#/Hackathon/Hackaton/Hackaton/obj/Debug/Hackaton.csprojAssemblyReference.cache
+C:/Users/dmitr/Desktop/Dima HW/ЯТП_С#/Hackathon/Hackaton/Hackaton/obj/Debug/Hackaton.BascketWin.resources
+C:/Users/dmitr/Desktop/Dima HW/ЯТП_С#/Hackathon/Hackaton/Hackaton/obj/Debug/Hackaton.Properties.Resources.resources
+C:/Users/dmitr/Desktop/Dima HW/ЯТП_С#/Hackathon/Hackaton/Hackaton/obj/Debug/Hackaton.csproj.GenerateResource.cache
+C:/Users/dmitr/Desktop/Dima HW/ЯТП_С#/Hackathon/Hackaton/Hackaton/obj/Debug/Hackaton.csproj.CoreCompileInputs.cache
+C:/Users/dmitr/Desktop/Dima HW/ЯТП_С#/Hackathon/Hackaton/Hackaton/obj/Debug/Hackaton.exe
+C:/Users/dmitr/Desktop/Dima HW/ЯТП_С#/Hackathon/Hackaton/Hackaton/obj/Debug/Hackaton.pdb
+>>>>>>> origin/Dima
+D:/GitHub/Hackathon/Hackaton/Hackaton/obj/Debug/Hackaton.BascketWin.resources
+D:/GitHub/Hackathon/Hackaton/Hackaton/obj/Debug/Hackaton.MainMenu.resources
+>>>>>>> Valera

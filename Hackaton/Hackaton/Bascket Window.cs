@@ -168,5 +168,15 @@ namespace Hackaton
             boxProduct.Clear();
             Validate(); 
         }
+
+        private void BascketWin_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
