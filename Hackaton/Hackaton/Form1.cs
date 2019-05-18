@@ -16,5 +16,20 @@ namespace Hackaton
         {
             InitializeComponent();
         }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void vScrollBar1_Scroll(object sender, ScrollEventArgs e)
+        {
+
+        }
+
+        private void vScrollBar1_Scroll_1(object sender, ScrollEventArgs e)
+        {
+
+        }
     }
 }
