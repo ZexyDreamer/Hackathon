@@ -86,6 +86,9 @@
     <EmbeddedResource Include="Bascket Window.resx">
       <DependentUpon>Bascket Window.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Description.resx">
+      <DependentUpon>Description.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="MainMenu.resx">
       <DependentUpon>MainMenu.cs</DependentUpon>
     </EmbeddedResource>
