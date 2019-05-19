@@ -11,13 +11,14 @@ namespace Hackaton
     {
         public Bitmap Image;
         public double OnePrice;
-        public double? Count = null;
+        public double Count;
         public string Name;
         public Size? Size = null;
         public string Description;
+        public Categories Category;
 
-        public Product(Bitmap Image, double OnePrice, double? Count, string Name,
-            Size? Size, string Description)
+        public Product(Bitmap Image, double OnePrice, double Count, string Name, 
+            Size Size, string Description, Categories Category)
         {
             this.Image = Image;
             this.OnePrice = OnePrice;
@@ -25,11 +26,9 @@ namespace Hackaton
             this.Name = Name;
             this.Size = Size;
             this.Description = Description;
+            this.Category = Category;
         }
 
-        public double Price =>
-            Count is null
-            ? OnePrice * Size.Value.Height * Size.Value.Width
-            : OnePrice * Count.Value;
+        public double Price => OnePrice * Count;
     }
 }

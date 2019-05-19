@@ -5,7 +5,7 @@ namespace Hackaton
     public interface IProduct : IItem
     {
         int Count { get; set; }
-        double? Size { get; set; }
+        Size? Size { get; set; }
         double Sum { get; }
     }
 }

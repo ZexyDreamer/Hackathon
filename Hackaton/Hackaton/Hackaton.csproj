@@ -47,6 +47,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Bascket.cs" />
+    <Compile Include="Categories.cs" />
     <Compile Include="Category.cs" />
     <Compile Include="Bascket Window.cs">
       <SubType>Form</SubType>
@@ -60,27 +61,22 @@
     <Compile Include="Description.Designer.cs">
       <DependentUpon>Description.cs</DependentUpon>
     </Compile>
-    <Compile Include="Product.cs" />
+    <Compile Include="Enter Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Enter Form.Designer.cs">
+      <DependentUpon>Enter Form.cs</DependentUpon>
+    </Compile>
     <Compile Include="IItem.cs" />
     <Compile Include="IProduct.cs" />
     <Compile Include="IService.cs" />
-    <Compile Include="Library\Bench.cs" />
-    <Compile Include="Library\Cement.cs" />
-    <Compile Include="Library\Concrete.cs" />
-    <Compile Include="Library\Door.cs" />
-    <Compile Include="Library\Grass.cs" />
-    <Compile Include="Library\Grill.cs" />
-    <Compile Include="Library\Paint.cs" />
-    <Compile Include="Library\Playground.cs" />
-    <Compile Include="Library\Putty.cs" />
-    <Compile Include="Library\Service.cs" />
-    <Compile Include="Library\Toolset.cs" />
     <Compile Include="MainMenu.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="MainMenu.Designer.cs">
       <DependentUpon>MainMenu.cs</DependentUpon>
     </Compile>
+    <Compile Include="Product.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Bascket Window.resx">
@@ -88,6 +84,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Description.resx">
       <DependentUpon>Description.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Enter Form.resx">
+      <DependentUpon>Enter Form.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="MainMenu.resx">
       <DependentUpon>MainMenu.cs</DependentUpon>

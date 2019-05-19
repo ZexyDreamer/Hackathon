@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(BascketWin));
             this.CreateDocument = new System.Windows.Forms.Button();
             this.TotalPrice = new System.Windows.Forms.TextBox();
             this.Cleaner = new System.Windows.Forms.Button();
@@ -42,8 +43,9 @@
             this.CreateDocument.Name = "CreateDocument";
             this.CreateDocument.Size = new System.Drawing.Size(226, 71);
             this.CreateDocument.TabIndex = 0;
-            this.CreateDocument.Text = "Create Document";
+            this.CreateDocument.Text = "Создать документ";
             this.CreateDocument.UseVisualStyleBackColor = true;
+            this.CreateDocument.Click += new System.EventHandler(this.CreateDocument_Click);
             // 
             // TotalPrice
             // 
@@ -54,7 +56,7 @@
             this.TotalPrice.Name = "TotalPrice";
             this.TotalPrice.Size = new System.Drawing.Size(303, 35);
             this.TotalPrice.TabIndex = 1;
-            this.TotalPrice.Text = "Price: ";
+            this.TotalPrice.Text = " ";
             // 
             // Cleaner
             // 
@@ -64,7 +66,7 @@
             this.Cleaner.Name = "Cleaner";
             this.Cleaner.Size = new System.Drawing.Size(198, 71);
             this.Cleaner.TabIndex = 3;
-            this.Cleaner.Text = "Clear";
+            this.Cleaner.Text = "Очистить";
             this.Cleaner.UseVisualStyleBackColor = true;
             this.Cleaner.Click += new System.EventHandler(this.Cleaner_Click);
             // 
@@ -87,11 +89,11 @@
             this.Controls.Add(this.Cleaner);
             this.Controls.Add(this.TotalPrice);
             this.Controls.Add(this.CreateDocument);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.MaximizeBox = false;
             this.Name = "BascketWin";
             this.Text = "Bascket";
-            this.Load += new System.EventHandler(this.BascketWin_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

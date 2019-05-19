@@ -19,10 +19,10 @@ namespace Hackaton
             CreatePoducts();
         }
 
-        private Dictionary<GroupBox, IProduct> boxProduct =
-            new Dictionary<GroupBox, IProduct>();
+        private Dictionary<GroupBox, Product> boxProduct =
+            new Dictionary<GroupBox, Product>();
 
-        public GroupBox CreateProductGroupBox(IProduct product, Point location)
+        public GroupBox CreateProductGroupBox(Product product, Point location)
         {
             var groupBox = new GroupBox();
             boxProduct[groupBox] = product;
@@ -55,10 +55,28 @@ namespace Hackaton
             priceTextBox.Width = groupBox.Width - 100;
             priceTextBox.Height = 30;
             priceTextBox.Location = new Point(50, groupBox.Height - 40);
-            priceTextBox.Text = $"Price: {product.Price}";
+            priceTextBox.Text = $"Цена: {product.Price}";
             priceTextBox.Enabled = false;
             groupBox.Controls.Add(priceTextBox);
             priceTextBox.BringToFront();
+            #endregion
+
+            #region buttonDelete
+            var buttonDelete = new PictureBox();
+            buttonDelete.BackColor = Color.Transparent;
+            buttonDelete.SizeMode = PictureBoxSizeMode.AutoSize;
+            buttonDelete.Location = new Point(groupBox.Width - 40, 25);
+            buttonDelete.Image = new Bitmap(@"../../Images/deleteButton.png");
+            buttonDelete.Click += (sender, e) =>
+            {
+                Bascket.Products.Remove(boxProduct[groupBox]);
+                boxProduct.Remove(groupBox);
+                mainPanel.Controls.Remove(groupBox);
+                RefreshProducts();
+                RefreshTotalPrice();
+            };
+            groupBox.Controls.Add(buttonDelete);
+            buttonDelete.BringToFront();
             #endregion
 
             #region buttonPlus
@@ -66,11 +84,11 @@ namespace Hackaton
             buttonPlus.BackColor = Color.Transparent;
             buttonPlus.SizeMode = PictureBoxSizeMode.AutoSize;
             buttonPlus.Location = new Point(groupBox.Width - 40, groupBox.Height - 40);
-            buttonPlus.Image = new Bitmap(@"C:\Users\dmitr\Desktop\Dima HW\ЯТП_С#\Hackathon\Hackaton\Hackaton\Images\plusButton.png");
+            buttonPlus.Image = new Bitmap(@"../../Images/plusButton.png");
             buttonPlus.Click += (sender, e) =>
             {
                 product.Count++;
-                priceTextBox.Text = $"Price: {product.Sum}";
+                priceTextBox.Text = $"Цена: {product.Price}";
                 RefreshTotalPrice();
             };
             groupBox.Controls.Add(buttonPlus);
@@ -82,34 +100,24 @@ namespace Hackaton
             buttonMinus.BackColor = Color.Transparent;
             buttonMinus.SizeMode = PictureBoxSizeMode.AutoSize;
             buttonMinus.Location = new Point(10, groupBox.Height - 40);
-            buttonMinus.Image = new Bitmap(@"C:\Users\dmitr\Desktop\Dima HW\ЯТП_С#\Hackathon\Hackaton\Hackaton\Images\minusButton.png");
+            buttonMinus.Image = new Bitmap(@"../../Images/minusButton.png");
             buttonMinus.Click += (sender, e) =>
             {
                 if (product.Count > 0)
                     product.Count--;
-                priceTextBox.Text = $"Price: {product.Sum}";
+                if (product.Count == 0)
+                {
+                    Bascket.Products.Remove(boxProduct[groupBox]);
+                    boxProduct.Remove(groupBox);
+                    mainPanel.Controls.Remove(groupBox);
+                    RefreshProducts();
+                    RefreshTotalPrice();
+                }
+                priceTextBox.Text = $"Цена: {product.Price}";
                 RefreshTotalPrice();
             };
             groupBox.Controls.Add(buttonMinus);
             buttonMinus.BringToFront();
-            #endregion
-
-            #region buttonDelete
-            var buttonDelete = new PictureBox();
-            buttonDelete.BackColor = Color.Transparent;
-            buttonDelete.SizeMode = PictureBoxSizeMode.AutoSize;
-            buttonDelete.Location = new Point(groupBox.Width - 40, 25);
-            buttonDelete.Image = new Bitmap(@"C:\Users\dmitr\Desktop\Dima HW\ЯТП_С#\Hackathon\Hackaton\Hackaton\Images\deleteButton.png");
-            buttonDelete.Click += (sender, e) =>
-            {
-                Bascket.Products.Remove(boxProduct[groupBox]);
-                boxProduct.Remove(groupBox);
-                mainPanel.Controls.Remove(groupBox);
-                RefreshProducts();
-                RefreshTotalPrice();
-            };
-            groupBox.Controls.Add(buttonDelete);
-            buttonDelete.BringToFront();
             #endregion
 
             groupBox.Location = location;
@@ -154,7 +162,7 @@ namespace Hackaton
 
         private void RefreshTotalPrice()
         {
-            TotalPrice.Text = $"Total Price: {Bascket.Price}";
+            TotalPrice.Text = $"Общая цена: {Bascket.Price}";
         }
 
         private void Cleaner_Click(object sender, EventArgs e)
@@ -169,14 +177,9 @@ namespace Hackaton
             Validate(); 
         }
 
-        private void BascketWin_Load(object sender, EventArgs e)
+        private void CreateDocument_Click(object sender, EventArgs e)
         {
-
-        }
-
-        private void textBox1_TextChanged(object sender, EventArgs e)
-        {
-
+            new Enter_Form().Show();
         }
     }
 }
